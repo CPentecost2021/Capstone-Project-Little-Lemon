@@ -1,22 +1,18 @@
 import React from 'react';
-import Header from './Header';
-import Nav from './Nav';
-import Main from './Main';
-import Footer from './Footer';
+import './App.css';
+import Nav from "./components/Nav"
+import Header from "./components/Header"
+import Main from "./components/Main"
+import Footer from "./components/Footer"
 
 function App() {
-  const appStyle = {
-    display: 'flex',
-    flexDirection: 'column',
-    minHeight: '100vh', // Ensure the app takes at least the full height of the viewport
-  };
-
   return (
-    <div style={appStyle}>
-      <Header />
+    <div>
+    <React.Fragment>
       <Nav />
       <Main />
       <Footer />
+    </React.Fragment>
     </div>
   );
 }
