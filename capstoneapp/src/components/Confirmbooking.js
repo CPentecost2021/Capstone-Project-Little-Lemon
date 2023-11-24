@@ -1,6 +1,6 @@
 import React from "react";
 
-const Confirmedbooking = () => {
+const Confirmbooking = () => {
     return(
         <header>
             <section>
@@ -12,4 +12,4 @@ const Confirmedbooking = () => {
     )
 }
 
-export default Confirmedbooking;
+export default Confirmbooking;
