@@ -1,5 +1,5 @@
 import React from "react";
-import BookingForm from "./BookingForm";
+import BookingForm from "./Bookingform";
 import { useState } from "react";
 
 const Booking = (props) => {
@@ -8,7 +8,7 @@ const Booking = (props) => {
 
     return (
 
-        <BookingForm availableTimes={props.availableTimes} dispatch={props.dispatch} submitForm={props.submitForm}/>
+        <Bookingform availableTimes={props.availableTimes} dispatch={props.dispatch} submitForm={props.submitForm}/>
     )
 }
 

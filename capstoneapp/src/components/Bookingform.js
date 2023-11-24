@@ -3,7 +3,7 @@ import { useState } from "react";
 
 
 
-const BookingForm = (props) => {
+const Bookingform = (props) => {
 
    const [occasion, setOccasion] = useState("");
    const [guests, setGuests] = useState("");
@@ -60,4 +60,4 @@ const BookingForm = (props) => {
   );
 };
 
-export default BookingForm;
+export default Bookingform;
