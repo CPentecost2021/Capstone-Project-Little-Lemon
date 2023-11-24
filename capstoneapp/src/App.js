@@ -9,6 +9,7 @@ function App() {
   return (
     <div>
     <React.Fragment>
+      <Header />
       <Nav />
       <Main />
       <Footer />
