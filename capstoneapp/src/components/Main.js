@@ -1,5 +1,5 @@
 // Main.js
-import React, { useReducer, useEffect } from "react";
+import React, { useState, useReducer } from "react";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import Booking from "./Booking";
 import Confirmbooking from "./Confirmbooking";
@@ -8,7 +8,7 @@ import Header from "./Header";
 
 const Main = () => {
 
-    // const [availableTimes, setAvailableTimes] = useState(["17:00", "18:00", "19:00", "20:00", "21:00", "22:00"])
+    const [availableTimes, setAvailableTimes] = useState(["17:00", "18:00", "19:00", "20:00", "21:00", "22:00"])
 
     //Chrome was blocking running the script on the index page so I added it here.
     const seededRandom = function (seed) {

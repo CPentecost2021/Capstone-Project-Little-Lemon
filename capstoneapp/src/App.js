@@ -9,8 +9,8 @@ function App() {
   return (
     <div>
     <React.Fragment>
-      <Header />
       <Nav />
+      <Header />
       <Main />
       <Footer />
     </React.Fragment>
